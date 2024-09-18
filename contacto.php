@@ -21,7 +21,7 @@
               <div class="contact-panel__block">
                 <h5 class="contact-panel__block__title">Opciones de contacto</h5>
                 <ul class="contact-panel__block__list list-unstyled">
-                  <li><a href="mailto:Amarou@7oroof.com"></a>Correo Electrónico: contacto@servigue.com</li>
+                  <li><a href="mailto:contacto@gservigue.com"></a>Correo Electrónico: contacto@gservigue.com</li>
                   <li><a href="tel:5578270017"></a>Cotizaciones: 5578270017</li>
                   <li><a href="tel:5578270016 "></a>Recursos Humanos: 5578270016</li>
                 </ul>

@@ -233,8 +233,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-            <a href="https://www.conexia.mx/" target="_blank"><img src="https://conexia.mx/conexia-horizontal.png" style="width:auto;height:35px; margin-bottom:15px;"></a>
-              <p class="mb-0"> © 2020 <strong>Servigue</strong> - Todos los Derechos Reservados - <a href="?Modulo=Aviso"> Aviso de Privacidad</a>
+              <p class="mb-0"> © 2024 <strong>Servigue</strong> - Todos los Derechos Reservados - <a href="?Modulo=Aviso"> Aviso de Privacidad</a>
               </p>
             </div>
           </div>
