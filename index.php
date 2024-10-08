@@ -89,7 +89,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </li>
                   <li>
                     <i class="icon-envelope"></i><span>Email: </span>
-                    <a href="mailto:contacto@servigue.com">&nbsp;contacto@servigue.com</a>
+                    <a href="mailto:contacto@gservigue.com">&nbsp;contacto@gservigue.com</a>
                   </li>
                   <li><i class="icon-clock"></i><span>Horarios: Lun-Vie: 8am – 5pm</span></li>
                 </ul>

@@ -39,14 +39,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-7 offset-lg-1">
-          <script>
-          hbspt.forms.create({
-            region: "na1",
-            portalId: "20727114",
-            formId: "b42d8906-0eb2-472c-a502-6a0fda50bed6"
-          });
-          </script>
-            <form method="post" action="assets/php/contact.php" id="contactForm" class="contact-panel__form mb-30" style="display:none;">
+            <form method="post" action="assets/php/contact.php" id="contactForm" class="contact-panel__form mb-30">
               <div class="row">
                 <div class="col-sm-12">
                   <h4 class="contact-panel__title">Contáctanos</h4>
@@ -54,32 +47,27 @@
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Nombre" id="contact-name" name="contact-name"
-                      required>
+                    <input type="text" class="form-control" placeholder="Nombre" id="contact-name" name="contact-name" required>
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                   <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Correo Electrónico" id="contact-email" name="contact-email"
-                      required>
+                    <input type="email" class="form-control" placeholder="Correo Electrónico" id="contact-email" name="contact-email" required>
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Teléfono" id="contact-Phone" name="contact-phone"
-                      required>
+                    <input type="number" class="form-control" placeholder="Teléfono" id="contact-Phone" name="contact-phone" required>
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Asunto" id="contact-subject"
-                      name="contact-subject" required>
+                    <input type="text" class="form-control" placeholder="Asunto" id="contact-subject" name="contact-subject" required>
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-12">
                   <div class="form-group">
-                    <textarea class="form-control" placeholder="Comentario" id="contact-messgae"
-                      name="contact-messgae" required></textarea>
+                    <textarea class="form-control" placeholder="Comentario" id="contact-messgae" name="contact-messgae" required></textarea>
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-12">

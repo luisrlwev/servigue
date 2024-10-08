@@ -122,7 +122,8 @@ $(function () {
 
     /*==========  Contact Form validation  ==========*/
     var contactForm = $("#contactForm"),
-        contactResult = $('.contact-result');
+    contactResult = $('.contact-result');
+
     contactForm.validate({
         debug: false,
         submitHandler: function (contactForm) {
@@ -133,9 +134,15 @@ $(function () {
                 data: $(contactForm).serialize(),
                 timeout: 20000,
                 success: function (msg) {
+                    // Mostrar el mensaje de éxito
                     $(contactResult, contactForm).html('<div class="alert alert-success" role="alert"><strong>Gracias. Te contactaremos a la brevedad.</strong></div>').delay(3000).fadeOut(2000);
+
+                    // Limpiar el formulario después del éxito
+                    contactForm.reset(); // Cambiado por esto
                 },
-                error: $('.thanks').show()
+                error: function() {
+                    $(contactResult, contactForm).html('<div class="alert alert-danger" role="alert"><strong>Hubo un error. Inténtalo de nuevo.</strong></div>');
+                }
             });
             return false;
         }
