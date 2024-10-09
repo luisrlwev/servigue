@@ -148,6 +148,34 @@ $(function () {
         }
     });
 
+    /*==========  Cotizacion Form validation  ==========*/
+    var cotizacionForm = $("#cotizacionForm"),
+    cotizacionResult = $('.cotizacion-result');
+
+    cotizacionForm.validate({
+        debug: false,
+        submitHandler: function (cotizacionForm) {
+            $(cotizacionResult, cotizacionForm).html('Por favor espera...');
+            $.ajax({
+                type: "POST",
+                url: "assets/php/cotizacion.php",
+                data: $(cotizacionForm).serialize(),
+                timeout: 20000,
+                success: function (msg) {
+                    // Mostrar el mensaje de éxito
+                    $(cotizacionResult, cotizacionForm).html('<div class="alert alert-success" role="alert"><strong>Gracias. Te contactaremos a la brevedad.</strong></div>').delay(3000).fadeOut(2000);
+
+                    // Limpiar el formulario después del éxito
+                    cotizacionForm.reset(); // Cambiado por esto
+                },
+                error: function() {
+                    $(cotizacionResult, cotizacionForm).html('<div class="alert alert-danger" role="alert"><strong>Hubo un error. Inténtalo de nuevo.</strong></div>');
+                }
+            });
+            return false;
+        }
+    });
+
     /*==========   Slick Carousel ==========*/
     $('.slick-carousel').slick();
 
